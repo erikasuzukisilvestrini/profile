@@ -1,0 +1,97 @@
+#header {
+  font-family: borel;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 30%;
+}
+
+.box-1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+
+.description {
+ font-family: quicksand;
+ font-size: 18px;
+ text-align: center;
+ margin: 0;
+}
+
+.link-github a {
+  color: #000000;
+  transition: color 2s;
+  text-decoration: none;
+}
+
+.link-github a:hover {
+  color:#9d1a7e;
+}
+
+body{
+  background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.box-1 {
+  height: 400px;
+  width: 600px;
+  background-color: #E8E8E8;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box-2 {
+  height: 150px;
+  width: 450px;
+  background-color: #E8E8E8;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: borel;
+  font-size: 24px;
+  color:#000000;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.no-bullets {
+  list-style: none;
+  display: flex
+}
+
+.no-bullets li {
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
